@@ -24,7 +24,7 @@ export default createGlobalStyle`
   }
 
   button {
-    cursos: pointer;
+    cursor: pointer;
   }
 
 `;
