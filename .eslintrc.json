@@ -24,15 +24,15 @@
     },
     "plugins": [
         "react",
+				"react-hooks",
         "@typescript-eslint",
-        "react-hooks",
         "prettier"
     ],
     "rules": {
-      "react/jsx-one-expression-per-line": "off",
-      "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn",
       "prettier/prettier": "error",
+      "react/jsx-props-no-spreading": "off",
+			"react-hooks/rules-of-hooks": "error",
+      "react-hooks/exhaustive-deps": "warn",
       "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
       "import/prefer-default-export": "off",
       "import/extensions": [
